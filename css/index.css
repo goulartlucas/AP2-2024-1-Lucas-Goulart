@@ -5,22 +5,20 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-}
-main{
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  justify-content: center;
+  background-color: #000000;
 }
 
-.login-container {
+#login-container {
   background-color: white;
   padding: 2em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   text-align: center;
 }
-
+img{
+  width: 100px;
+  height: auto;
+}
 .login-container h1 {
   margin-bottom: 1em;
 }
