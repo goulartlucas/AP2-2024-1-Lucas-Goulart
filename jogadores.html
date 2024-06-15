@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Jogadores</title>
+    <link rel="stylesheet" href="css/jogadores.css">
+</head>
+<body>
+    <header>
+        <h1>Clube de Futebol - Lista de Jogadores</h1>
+    </header>
+    <main>
+        <input type="text" id="searchBar" placeholder="Buscar por nome do jogador..." onkeyup="filtrarJogadores()">
+
+        <button id="m">Masculino</button>
+        <button id="f">Feminino</button>
+        <button id="t">Todos</button>
+
+        <div id="playersList">
+            <!-- Lista de jogadores será carregada aqui -->
+        </div>
+    </main>
+    <script src="js/jogadores.js"></script>
+</body>
+</html>
