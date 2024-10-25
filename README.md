@@ -1,6 +1,6 @@
 # Página Jogadores Botafogo
 
-# Avaliação Parcial Desenvolvimento-Web 
+# Avaliação Parcial 2 Desenvolvimento-Web 
 - JavaScript
 - CSS
 - HTML
